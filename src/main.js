@@ -24,7 +24,7 @@ axios.interceptors.request.use(function (config) {
  
   
 const router = createRouter({
-  history: createWebHistory(),
+  history: createWebHistory('/'),
   routes: [
     { path: '/', component: LoginPage },
     { path: '/register', component: RegisterPage },
